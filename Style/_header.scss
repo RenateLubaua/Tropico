@@ -1,0 +1,43 @@
+.header{
+  display:flex;
+  position:fixed;
+  width:100%;
+  padding-left:10px;
+  padding-right:10px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index:1;
+
+  .logo{
+    display:flex;
+    width:10px;
+    font-family: backout;
+    z-index:2;
+  }
+  .link{
+    color:white;
+    text-decoration: none;
+    padding:5px 25px 5px 25px;
+    font-family: myriad;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+    z-index:5;
+    transition:border-color 2s ease;
+  }
+  .link:hover{
+    color: yellow;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+  }
+  .navigācija{
+    margin-left:auto;
+    margin-top: 25px;
+    z-index: 5;
+  }
+} 

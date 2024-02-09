@@ -1,0 +1,45 @@
+@media (max-width: 750px) {
+   .wrapper video {
+        width:100%;
+        height:auto;
+     }
+     .wrapper{
+        height:auto;
+     }
+    .header{
+        width:100%;
+        .navigācija{
+            display:none;
+        }
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+    }
+    .card{
+        min-height:350px;
+    }
+    .fern{
+        display:none;
+    }
+    .mobile-fern{
+        display:flex;
+    }
+}
+@media(min-width:751px){
+    .mobile-fern{
+        display:none;
+    }
+    .fern{
+        display:flex;
+    }
+}
+
+@media (max-widtd:3840px){
+    .fern{
+        display:none;
+    }
+    .mobile-fern{
+        display:none;
+    }
+}

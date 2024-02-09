@@ -1,0 +1,100 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr); 
+    grid-gap: 15px 15px;
+    padding:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:40px;
+    border-style: solid;
+    border-width:1px;
+    border-color:green;
+}
+    .card{
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        border-color:rgb(227, 190, 39);
+        border-style:solid;
+        border-top-right-radius:15px;
+        border-bottom-left-radius:15px;
+        border-width:2px;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding-bottom:10px;
+
+        .card-image{
+            display:flex;
+            object-fit:crop;
+            height:80%;
+            min-height:100px;
+            width:100%;
+            border-top-right-radius:15px;
+            padding:0;
+            object-fit: cover;
+            overflow: hidden;
+        }
+        h2{
+            width:100%;
+            background: rgba(0, 0, 0, 0.5);
+            border-top-right-radius:15px;
+            z-index:2;
+            font-family: backout;
+            font-weight: lighter;
+            color:white;
+            height:50px;
+            padding-top:10px;
+            padding-left: 10px;
+            position:absolute;
+            top:0;
+            left:0;
+        }
+        .card-paragraph{
+            padding-bottom:20px;
+            font-family: myriad;
+            height:20%;
+        }
+    }   
+
+.tags{
+    display:flex;
+    align-content:justify;
+    height:20px;
+    font-family: myriad;
+    font-weight: bold;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:3px;
+    margin-right:3px;
+    .tag1{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color:green;
+        color:green;
+    }
+    .tag2{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color:rgb(227, 142, 68);
+        color:rgb(227, 142, 68);
+    }
+    .tag3{
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color:purple;
+        color:purple;
+    }
+}
+// .ferns{
+//     width:100%;
+//     padding:0;
+//     margin:0;
+//     position:relative;
+//     height:100px;
+//     left:0;
+//     z-index:-1;
+// }

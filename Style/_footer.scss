@@ -1,0 +1,51 @@
+.footer{
+    display:flex;
+    position:relative;
+    bottom:0;
+    width:100%;
+    background: black;
+    height:120px;
+    padding:20px 20px;
+
+        
+    .social-icons{
+        display:flex;
+        height: 80px;
+        margin-right:auto;
+        
+        .social-icon{
+            height:100%;
+            width:auto;
+            padding:10px;
+            fill: yellow;
+                &:hover{
+                fill: purple;
+                transition: ease-in 1s;
+        }
+        }
+    }
+    .footer-logo-tropico{
+        display:flex;
+        align-self:right;
+        position:relative;
+        height:80px;
+        align-self:end;
+        margin-left:auto;
+    }
+}
+.footer-fern{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:translateY(-100%);
+    z-index:-1;
+    .fern{
+        width:100%;
+    }
+    .mobile-fern{
+        width:100%;
+    }
+
+}
+
